@@ -2,15 +2,15 @@ function allScript() {
    var afisare = document.getElementById("text");
    var notNumber = ["AC", "+/-", "%", "/", "X", "-", "+", "="];
 
-//    function runInput(id) {
-//        var buton = document.getElementById(id);
-//        buton.onclick = function() {
-//             if (!notNumber.includes(buton.value)) {
-//                 afisare.value += "" + buton.value;
-//                 return afisare.value;
-//             }
-//         }
-//    }
+   function runInput(id) {
+       var buton = document.getElementById(id);
+       buton.onclick = function() {
+            if (!notNumber.includes(buton.value)) {
+                afisare.value += "" + buton.value;
+                return afisare.value;
+            }
+        }
+   }
    var egalId = "btn19";
 
     function apasare(id) {
